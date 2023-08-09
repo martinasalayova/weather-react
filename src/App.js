@@ -1,23 +1,25 @@
 import "./App.css";
-import Search from "./Search";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <Search />
-      <br />
-      <br />
-      <footer>
-        Coded by{" "}
-        <a
-          href="https://github.com/martinasalayova/weather-react"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Martina Salayová
-        </a>
-      </footer>
+      <div className="container">
+        <h1>Weather App</h1>
+        <Weather />
+        <br />
+        <br />
+        <footer>
+          Coded by{" "}
+          <a
+            href="https://github.com/martinasalayova/weather-react"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Martina Salayová
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
