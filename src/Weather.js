@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./Weather.css";
 
 export default function Weather() {
   return (
@@ -11,7 +12,8 @@ export default function Weather() {
       <div className="row">
         <div className="col-sm-6">
           <h1>Hradec Králové</h1>
-          <h2>22 °C °F</h2>
+          <span className="temperature">22</span>
+          <span className="unit"> °C</span>
           <ul>
             <li>Broken clouds</li>
             <li>Humidity: 42%</li>
