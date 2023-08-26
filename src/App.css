@@ -33,7 +33,7 @@ footer {
   text-align: center;
 }
 
-.col {
+.col-sm-6 {
   padding: 0px;
   margin: 0 auto;
 }
