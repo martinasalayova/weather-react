@@ -25,7 +25,7 @@ export default function WeatherInfo(props) {
           <WeatherIcon code={props.data.icon} size={100} />
         </div>
       </div>
-      <WeatherForecast />
+      <WeatherForecast coordinates={props.data.coordinates} />
     </div>
   );
 }
