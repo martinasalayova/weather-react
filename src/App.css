@@ -1,5 +1,7 @@
 body {
   background-color: #a7bcb9;
+  margin: auto;
+  max-width: 50%;
   color: #41506b;
   font-family: "JetBrains Mono", monospace;
   background: linear-gradient(
@@ -21,7 +23,7 @@ footer {
   border-style: ridge;
   border-radius: 6px;
   margin-top: 30px;
-  max-width: 80%;
+
   background-color: #c1c1ed;
 }
 
@@ -32,4 +34,15 @@ footer {
 .col-sm-6 {
   padding: 0px;
   margin: 0 auto;
+}
+
+.forecast-row {
+  margin-bottom: -30px;
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  body {
+    max-width: 100%;
+  }
 }

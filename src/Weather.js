@@ -46,7 +46,7 @@ export default function Weather(props) {
             onChange={handleCityChange}
             placeholder="Enter a city.."
           />
-          <input type="submit" value="search" />
+          <input type="submit" value="Search" />
         </form>
         <WeatherInfo data={weatherData} />
       </div>
